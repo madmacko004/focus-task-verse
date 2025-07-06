@@ -18,7 +18,7 @@ const Dashboard = () => {
       priority: 'high' as const,
       status: 'in-progress' as const,
       dueDate: '2025-07-08',
-      assignee: 'John Doe',
+      assignee: 'Manickam',
       tags: ['design', 'frontend']
     },
     {
@@ -28,7 +28,7 @@ const Dashboard = () => {
       priority: 'high' as const,
       status: 'todo' as const,
       dueDate: '2025-07-10',
-      assignee: 'Jane Smith',
+      assignee: 'Manickam',
       tags: ['backend', 'auth']
     },
     {
@@ -38,7 +38,7 @@ const Dashboard = () => {
       priority: 'medium' as const,
       status: 'todo' as const,
       dueDate: '2025-07-12',
-      assignee: 'Mike Johnson',
+      assignee: 'Manickam',
       tags: ['documentation', 'api']
     },
     {
@@ -48,7 +48,7 @@ const Dashboard = () => {
       priority: 'medium' as const,
       status: 'completed' as const,
       dueDate: '2025-07-05',
-      assignee: 'Sarah Wilson',
+      assignee: 'Manickam',
       tags: ['devops', 'automation']
     },
     {
@@ -58,7 +58,7 @@ const Dashboard = () => {
       priority: 'low' as const,
       status: 'todo' as const,
       dueDate: '2025-07-15',
-      assignee: 'Alex Brown',
+      assignee: 'Manickam',
       tags: ['database', 'performance']
     }
   ]);
@@ -144,7 +144,7 @@ const Dashboard = () => {
         {/* Welcome Section */}
         <div className="mb-8">
           <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white">
-            <h1 className="text-3xl font-bold mb-2">Welcome back, John! 👋</h1>
+            <h1 className="text-3xl font-bold mb-2">Welcome back, Manickam! 👋</h1>
             <p className="text-purple-100 text-lg">
               You have {taskStats.pending} pending tasks and {taskStats.overdue} overdue tasks.
             </p>
